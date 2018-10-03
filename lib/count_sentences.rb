@@ -25,7 +25,7 @@ class String
 
   def count_sentences
     array = self.split(/.?!/)
-    array.delete_if { |n| n == ""}
+    array.delete("")
     array.length
   end
 end
