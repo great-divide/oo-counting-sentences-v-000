@@ -24,9 +24,9 @@ class String
   end
 
   def count_sentences
-    foo = self.split(/[.?!]/).length
+    foo = self.split(/[.?!]/)
     foo.reject { |n| n.length < 2
     }
-    foo
+    foo.length
   end
 end
