@@ -29,4 +29,5 @@ class String
     array.length
     binding.pry
   end
+  count_sentences
 end
