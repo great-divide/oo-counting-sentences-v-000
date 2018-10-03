@@ -27,7 +27,7 @@ class String
     foo = self.split(/[.?!]/).length
     foo.each { |n|
       if n.length < 2
-        n.
+        n.reject
     }
   end
 end
