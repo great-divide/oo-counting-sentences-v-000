@@ -27,5 +27,6 @@ class String
     array = self.split(/.?!/)
     # array.delete("")
     array.length
+    binding.pry
   end
 end
